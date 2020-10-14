@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            회원가입 1단계
+        </title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                Sign In
+            </header>
+            <div class="form-outer">
+                <form action="#">
+                    <div class="page">
+                        <div class="title">
+                            Login Details:
+                        </div>
+                        <div class="field">
+                            <div class="label">ID
+
+                            </div>
+                            <input type="text" required>
+                        </div>
+                        <div class="field">
+                            <div class="label">Password</div>
+                            <input type="password" required>
+                        </div>
+                        <div class="field">
+                            <div class="label">Email Address
+                            </div>
+                            <input type="email" placeholder="id@host">
+                        </div>
+                   
+
+
+                        <div class="title">
+                            Basic Info:
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                                Phone Numer
+                            </div>
+                            <input type="tel" placeholder="010-1234-5678">
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                                Address
+                            </div>
+                            <input type="text" id="add" placeholder="주소">
+                            <input type="text" id="add_ex" placeholder="세부 주소">
+                        </div>
+                     
+                    
+
+
+                        <div class="title">
+                            Date of Birth:
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                                Date
+                            </div>
+                            <input type="txt" id="yy" placeholder="년(4자)" class="int" maxlength="4">
+                            <select id="mm" class="sel">
+                                <option value="">월</option>
+                                     <option value="01">
+                                        1
+                                    </option>
+                                    <option value="02">
+                                        2
+                                    </option>
+                                    <option value="03">
+                                        3
+                                    </option>
+                                    <option value="04">
+                                        4
+                                    </option>
+                                    <option value="05">
+                                        5
+                                    </option>
+                                    <option value="06">
+                                        6
+                                    </option>
+                                    <option value="07">
+                                        7
+                                    </option>
+                                    <option value="08">
+                                        8
+                                    </option>
+                                    <option value="09">
+                                        9
+                                    </option>
+                                    <option value="10">
+                                        10
+                                    </option>
+                                    <option value="11">
+                                        11
+                                    </option>
+                                    <option value="12">
+                                        12
+                                    </option>
+                            </select>
+                            <input type="text" id="dd" placeholder="일" class="int" maxlength="2">
+
+                        </div>
+                       
+
+                        <div class="title">
+                            additiona:
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                                취미
+                            </div>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                                가입동기
+                            </div>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <div class="label">
+                               자기소개서
+                            </div>
+                            <input type="text">
+                    </div>                        
+                        <div class="field">
+                          
+                            <button class="Submit" onclick="button1_click();">Submit</button>
+                            
+                            <script>
+                                function button1_click(){
+                                    alert("회원가입이 완료되었습니다🎉");
+                                }
+                            </script>
+                        <!--onclick은 버튼을 눌렀을 때 button1_click를 실행하라는 뜻이며 누르면 알람창이 뜬다-->
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        </body>
+</html>
